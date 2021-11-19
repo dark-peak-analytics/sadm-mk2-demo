@@ -1,0 +1,412 @@
+@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter'; }
+
+body {
+    background-color: white;
+    color: #26384E;
+    font-weight: 400;
+    font-family: Inter;
+    font-size: 16px;
+    max-width: 2000px;
+    min-width: 1000px;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .panel {
+  background-color: white;
+  /*border: 1px solid #5F9EA0;*/
+  border: 0;
+  border-radius: 10px;
+  padding:20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  box-shadow: 0 8px 30px 0 rgba(0,0,0,0.1);
+  }
+  
+
+  .nav_head{
+    width: 100%;
+    font-size: 14pt;
+    font-weight: 350;
+    vertical-align: center;
+    padding:0;
+    margin-bottom: -5px;
+    text-align: center;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .nav_menu {
+    background-color: transparent;
+    border: 1px solid #2C3E50;
+    border-radius: 30px;
+    margin-top: 45px;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    width: 80%;
+    min-width: 200px;
+    text-align:center;
+    box-shadow: 0 8px 30px 0 rgba(0,0,0,0.1);
+  }
+  .nav_foot {
+    width: 100%;
+    font-size: 10pt;
+    line-height: 20px;
+    font-weight: 350;
+    vertical-align: center;
+    padding:0;
+    margin-top: -15px;
+    margin-bottom: -10px;
+    text-align: center;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden; 
+    color: #68D3BF;
+  }
+.nav-tabs-custom{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 0 8px 30px 0 rgba(0,0,0,0.2);
+}
+#tabbox > li.active > a{
+  font-weight: 450;
+  font-size: 110%;
+}
+#tabbox > li > a{
+font-weight: 350;
+}
+wf{
+  color: rgb(177, 205, 206)};
+.nav-tabs-custom>.nav-tabs>li.active{
+  border-top-color: #3498DB;
+  border-top-width: 5px;
+}
+.nav-tabs-custom>.tab-content{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  min-height: 400px;
+  padding: 30px;
+  padding-bottom: 70px;
+/* height: 50vh; */
+  max-height: 1200px;
+}
+#tabbox > li.header.pull-right{
+  margin-right: 25px;
+  margin-top: 5px;
+}
+
+  #tab1, #tab2, #tab3, #tab4, #tab5{
+    width: 90%;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 12pt;
+    background-color: #1F9CE5;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    text-shadow: 1px 1px 1px rgba(136, 45, 45, 0.3);
+    background-image: none;
+    vertical-align: center;
+    padding:0;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .bttn-material-flat{
+    color: white;
+    text-transform: none;
+    font-family: "Font Awesome 5 Free";
+  }
+  #run_model{
+    width: 90%;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 12pt;
+    background-color: #1F9CE5;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    background-image: none;
+    vertical-align: center;
+    padding:0;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #aec09c;
+  }
+  #optimise_price, #close_tab1,#close_tab2,#close_tab3,#close_tab4,#close_tab5,#close_tab6 {
+    background-color: #548a17;
+    background-image: none;
+    font-size: 14pt;
+    font-weight: 350;
+  }
+  body > div.sweet-alert.alert-size-m.showSweetAlert.visible {
+    border-radius: 50px;
+  }
+  body > div.sweet-alert.alert-size-m.showSweetAlert {
+    border-radius: 50px;
+  }
+  #run_anyway {
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    font-size: 12pt;
+    background-color: #548a17;
+    width:150px;
+    height: 45px;
+  }
+  #close_modal{
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    font-size: 12pt;
+    color:white;
+    background-color: gray;
+    width:150px;
+    height: 45px;
+  }
+  .glyphicon-triangle-bottom{
+    display: none;
+  }
+  .tippy-popper{
+    left: 5px !important;
+    border: 0;
+    z-index: 2;
+    height: 1px !important;
+  }
+  .tippy-tooltip.light-theme {
+    background-color: transparent;
+    box-shadow: none;
+    height: 1cm;
+  }
+  .tippy-tooltip {
+    border-radius: 30px;
+  }
+  .tippy-content{
+    background-color: white;
+    width: 65vw;
+    text-align: left;
+    min-width: 800px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    /*transform: translate(0,-150px);*/
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  }
+  
+  #tippy-1 .tippy-content{
+    transform: translate(0,-150px); 
+  }
+  #tippy-2 .tippy-content{
+    transform: translate(0,-195px); 
+  }
+  #tippy-3 .tippy-content{
+    transform: translate(0,-240px); 
+  }
+  #tippy-4 .tippy-content{
+    transform: translate(0,-285px); 
+  }
+  #tippy-5 .tippy-content{
+    transform: translate(0,-100px); 
+    width: 30vw;
+    min-width: 400px;
+  }
+
+  .tippy-tooltip.light-theme[data-placement^=right]>.tippy-arrow {
+    border-width: 18px 18px 18px 0;
+    z-index: 9;
+    left:-16px;
+  }
+
+  #set_horizon > div.noUi-base > div.noUi-connects > div:nth-child(1){
+    background-color: lightgray;
+  }
+  #set_horizon > div.noUi-base > div.noUi-connects > div:nth-child(2){
+    background-color: transparent;
+  }
+  #set_horizon > div.noUi-base > div.noUi-connects > div:nth-child(3){
+    background-color: lightgray;
+  }
+  .noUi-horizontal .noUi-handle-upper .noUi-tooltip, .noUi-horizontal .noUi-handle-lower .noUi-tooltip {
+    bottom:-45px;
+  }
+  #tab1-template > div > div:nth-child(4) > div > div:nth-child(2) > div > label {
+    margin-bottom: -30px !important;
+    margin-top: -5px;
+    font-size: 12pt;
+    font-weight: 450;
+    /*z-index: 99;*/
+    display: block;
+  }
+
+  #tab1-template > div > div > span > div > span {
+    display: inline-block;
+  }
+
+  /* ---- show survival model checkbo group buttons ---*/
+  .btn-info{
+    border: 1px solid #003452; 
+  }
+
+  .btn-info:active, .btn-info.active, .open>.dropdown-toggle.btn-info {
+    background-color: #72C1EE !important;
+    border: 1px solid #003452; 
+  }
+
+
+/* ---- survival model fit res table ---*/
+table {
+  background-color: white;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #C5E6F8;
+  padding: 0;
+}
+
+
+/* ---- image size ---*/
+  img {
+    max-width: 100% !important;
+  }
+
+
+/* ---- a header ---*/
+  .clear_h {
+    font-size: 20pt;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-left: 70px;
+  }
+
+/* ---- table for sick survival RR ---*/
+  #tbl_rr {
+    border: 1px solid black; 
+    border-collapse: separate;
+    border-radius: 10px;
+    border-spacing: 0px;
+    display: inline-block;
+    text-align: left;
+  }
+#tbl_rr_h {
+  padding:10px;
+}
+
+/*---- icer table ------*/
+
+  #icer_tbl table.dataTable tr.selected td, table.dataTable td.selected {
+    background-color: #C5E6F8 !important;
+  }
+  #icer_tbl table.dataTable tr.dtrg-group td {
+    background-color: #FFFFFF !important;
+  }
+  thead {
+    color: #2FA4E7 !important;
+    background-color: #FFFFFF !important;
+  }
+  #icer_tbl button.dt-button, div.dt-button, a.dt-button{
+    background-color: #F9FAFB !important;
+    background-image: none;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding-top:3px;
+    padding-bottom:3px;
+  }
+  table.dataTable thead .sorting, 
+table.dataTable thead .sorting_asc, 
+table.dataTable thead .sorting_desc {
+    background : none;
+}
+
+/* ------ wtp for ce plane ----*/
+#wtp {
+  padding-left:5px;
+}
+
+/* ------- copyrigh footer -------*/
+.copyright{
+     position:fixed;
+     white-space: nowrap;
+     bottom:20px;
+     left:20px;
+     top: auto;
+     right: auto;
+     font-size: 11pt;
+     font-weight: 300;
+     line-height: 19px;
+     z-index: 99;
+     width: 300px;
+     height: 70px;
+     vertical-align: center;
+     padding:7px;
+     padding-right:10px;
+     padding-left:10px;
+     border-radius: 10px;
+     /*border: 1px solid #0E213A;*/
+     box-shadow: 0 8px 30px 0 rgba(0,0,0,0.2);
+}
+
+
+/* ----- color picker z index -----*/
+
+#cep_col{
+  width: 100px;
+  padding: 2px;
+  padding-left: 10px;
+}
+.colourpicker-input-container {
+  position: fixed;
+  padding:1px;
+}
+
+/* ----- shiny busy text css hack -----*/
+.shinybusy-busy::before{
+  content: "loading...";
+  right: 170px;
+  color: #68D3BF;
+  font-weight: 300;
+  position: fixed;
+  top:45px;
+}
+
+
+/* --------- cu cost and util table ------*/ 
+#c_tbl {
+  font-weight:300;
+  text-align: center;
+  }
+  #c_tbl th {
+    padding: 10px;
+    color: #2C3E50;
+    white-space: nowrap;
+    text-align: center !important;
+    }
+  #c_tbl tr {
+      border-bottom: 1px solid rgb(177, 205, 206);
+      text-align: center !important;
+      padding: 10px;
+      margin-left: 30px;
+  }
+  #c_tbl td {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  #c_tbl_h_v1, #c_tbl_h_v2, #c_tbl_s_v1, #c_tbl_s_v2 {
+      text-align:center;
+  }
+  #c_tbl .selectize-control.single .selectize-input:after {
+      padding-left:0px;
+      right:8px;
+  }
