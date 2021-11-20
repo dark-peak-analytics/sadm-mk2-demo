@@ -3,6 +3,12 @@
 
 [![GitHub release](https://img.shields.io/badge/R-HEDS-green)](https://img.shields.io/badge/R-hello-green)
 [![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![GitHub release](https://img.shields.io/badge/R-HEDS-green)](https://img.shields.io/badge/R-hello-green)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![GitHub last commit](https://img.shields.io/github/last-commit/bitowaqr/sadm-mk2-demo?color=red&style=plastic)
+![GitHub top language](https://img.shields.io/github/languages/top/bitowaqr/sadm-mk2-demo?style=plastic)
+![GitHub repo size](https://img.shields.io/github/repo-size/bitowaqr/sadm-mk2-demo?style=plastic)
+[![GitHub forks](https://img.shields.io/github/forks/bitowaqr/sadm-mk2-demo?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/bitowaqr/sadm-mk2-demo/network/)
 
 [Paul Schneider](https://www.sheffield.ac.uk/scharr/staff-pgrs/studentprofiles/paulschneider) and [Robert Smith](https://www.linkedin.com/in/robert-smith-53b28438)
 
