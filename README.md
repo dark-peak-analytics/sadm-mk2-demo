@@ -16,7 +16,7 @@
 
 Contact:   p.schneider@sheffield.ac.uk
 
-Website: [Dark Peak Analytics](https://www.darkpeakanalytics.com)
+Web application: [sadm-mk2](https://darkpeakanalytics.shinyapps.io/sadm-mk2/)
 
 This site contains all material related to the lean Shiny app.
 
