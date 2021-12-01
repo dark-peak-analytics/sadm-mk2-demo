@@ -20,7 +20,7 @@ Web application: [sadm-mk2](https://darkpeakanalytics.shinyapps.io/sadm-mk2/)
 
 This site contains all material related to the lean Shiny app.
 
-Rob & Paul have worked on a variety of projects using R-Shiny, ranging from economic models of physical activity & [female genital mutilation](https://srhr.org/fgmcost/cost-calculator/), direct-acting oral anticoagulants, adherence interventions for cystic fibrosis and decision modelling for [parkrunUK](http://iol-map.shef.ac.uk/). They are keen to collaborate with others interested in improving transparency and reproducability in health economics. For more information see their [website](https://www.darkpeakanalytics.com).
+Rob & Paul have worked on a variety of projects using R-Shiny, ranging from economic models of physical activity & [female genital mutilation](https://srhr.org/fgmcost/cost-calculator/), direct-acting oral anticoagulants, adherence interventions for cystic fibrosis and decision modelling for [parkrunUK](http://iol-map.shef.ac.uk/). They are keen to collaborate with others interested in improving transparency and reproducability in health economics. 
 
 ### List of contributors (03/12/2020)
 - Paul Schneider, University of Sheffield
